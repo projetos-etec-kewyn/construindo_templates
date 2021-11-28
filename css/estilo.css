@@ -2,3 +2,17 @@
 	background-color: #A52A2A;
 	color: black;
 }
+.titulos{
+	text-align: center;
+	background-color: lightgray;
+	font-size: 40px;
+}
+p,li{
+	font-size: 20px;
+}
+body{
+	background-color: #DEB887;
+}
+a{
+	text-decoration-line: none;
+}
