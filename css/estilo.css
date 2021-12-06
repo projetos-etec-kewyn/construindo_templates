@@ -7,6 +7,7 @@
 	text-align: center;
 	font-size: 40px;
 	font-family: FreeMono, monospace;
+	font-style: italic;
 }
 p,li{
 	font-size: 20px;
@@ -20,6 +21,7 @@ a{
 footer{
 	background-color: darkgray;
 	text-align: center;
+	padding-bottom: 4%;
 }
 header{
 	background-image: url('../img/teste2.jpg');
@@ -33,27 +35,37 @@ header{
 	padding: 30px;
 	font-size: 25px;
 }
+.cre2{
+	color: rgb(214, 41, 11);
+}
+
+.cre2:hover{
+	color: white;
+}
 
 .nome{
 	color: white;
 	font-size: 40px;
-	margin-top: 20%;
+	margin-bottom: 10%;
 }
 .nome2{
 	color: white;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .botao{
 	border-radius: 20%;
 	background-color: gray;
-	margin-bottom: 20%;
 }
-
+.div2{
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
 .foto{
 	width: 45%;
 	margin-left: 10%;
 	margin-bottom: 5%;
+	border:1px solid rgb(0, 0, 0);
 }
 
 #sobre{
@@ -99,13 +111,20 @@ header{
 #cont{
 	background-color: rgb(142, 220, 243);
 }
+#comp{
+	background-color: rgb(155, 134, 247);
+}
 .cre{
-	font-size: 12px;
+	font-size: 11px;
 }
 .linkf{
-	color: black;
+	color: rgb(202, 111, 26);
 	font-size: 20px;
 	margin-right: 9%;
+	font-weight: bold;
+}
+.linkf:hover{
+	color: white;
 }
 .btn2 {
     display: flex;
@@ -129,4 +148,14 @@ header{
 }
 .btn2:hover::after {
     margin-top:-8px;
+}
+
+h3{
+	font-size: 25px;
+	font-family: Andale Mono, monospace;
+	margin-top: 5%;
+}
+.card{
+	background-color: rgb(22, 170, 170);
+	border:1px solid rgb(0, 0, 0);
 }
