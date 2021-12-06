@@ -68,3 +68,65 @@ header{
 	margin-top: 10%;
 }
 
+#esp{
+	background-color: #fceb8d;
+	text-align: center;
+}
+
+.imgs:hover{
+		transition: 1s;
+		transform: rotate(360deg);
+}
+.ani{
+	text-align: center;
+	font-style: italic;
+	animation-duration: 1.5s;
+	animation-name: titulo;
+	animation-iteration-count: infinite;
+	}
+		@keyframes titulo {
+			from{color: darkorange;}
+			to{color: deepskyblue;}
+			}
+
+#hob{
+	text-align: center;
+	background-color: rgb(170, 207, 133);
+}
+#exp{
+	background-color: rgb(212, 100, 100);
+}
+#cont{
+	background-color: rgb(142, 220, 243);
+}
+.cre{
+	font-size: 12px;
+}
+.linkf{
+	color: black;
+	font-size: 20px;
+	margin-right: 9%;
+}
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    text-decoration: none;
+	border-radius: 30%;
+}
+.btn2::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn2:hover::after {
+    margin-top:-8px;
+}
